@@ -1,0 +1,107 @@
+[
+  {
+    "room": "Captain America",
+    "item": {"shield": "locked"},
+    "hint": "what is captain america's shield made out of?",
+    "password": "dmlicmFuaXVt",
+    "directions": {
+      "southwest": "Huk",
+      "southeast": "IronMan"
+    }
+  },
+  {
+    "room": "Hulk",
+    "item": {"bruce banner's glasses": "locked"},
+    "hint": "What does hulk say before attacking?",
+    "password": "SHVsayBzbWFzaA==",
+    "directions": {
+      "northeast": "Captain America",
+      "southeast": "Thor"
+    }
+  },
+  {
+    "room": "Iron Man",
+    "item": {"arc reactor":  "locked"},
+    "hint": "What is Tony Stark's company called",
+    "password": "U3RhcmsgSW5kdXN0cmllcw==",
+    "directions": {
+      "northwest": "Captain America",
+      "southwest": "Thor"
+    }
+  },
+  {
+    "room": "Thor",
+    "item": {"mjolnir":  "locked"},
+    "hint": "Thor is the god of...",
+    "password": "dGh1bmRlciBhbmQgbGlnaHRuaW5n",
+    "directions":
+    {
+      "northwest": "Hulk",
+      "southwest": "Doctor Strange",
+      "northeast": "Iron Man",
+      "southeast": "Black Panther"
+    }
+  },
+  {
+    "room": "Doctor Strange",
+    "item": {"doctor strange's red cape":  "locked"},
+    "hint": "Doctor Strange is the master of...",
+    "password": "bXlzdGljIGFydHM=",
+    "directions": {
+      "northeast": "Thor",
+      "southeast": "Spider-man"
+    }
+  },
+  {
+    "room": "Black Panther",
+    "item": {"heart-shaped herb":  "locked"},
+    "hint": "What was the nickname for the antagonist in the Black Panther movie?",
+    "password": "S2lsbG1vbmdlcg==",
+    "directions": {
+      "northwest": "Thor",
+      "southwest": "Spider-man"
+    }
+  },
+  {
+    "room": "Spider-man",
+    "item": { "web-shooters": "locked"},
+    "hint": "Where does Peter Parker live?",
+    "password": "UXVlZW5z",
+    "directions": {
+      "northwest": "Doctor Strange",
+      "southwest": "Captain Marvel",
+      "northeast": "Black Panther",
+      "southeast": "Guardians of the Galaxy"
+    }
+  },
+  {
+    "room": "Captain Marvel",
+    "item": {"danvers dog tag":  "locked"},
+    "hint": "What gave Captain Marvel her powers?",
+    "password": "VGVzc2VyYWN0",
+    "directions": {
+      "northeast": "Spider-man",
+      "southeast": "End-Room"
+    }
+  },
+  {
+    "room": "Guardians of the Galaxy",
+    "item": {"element gun":  "locked"},
+    "hint": "What type of animal is Rocket?",
+    "password": "cmFjY29vbg==",
+    "directions": {
+      "northwest": "Spider-man",
+      "southwest": "End-Room"
+    }
+  },
+  {
+    "room": "End-Room",
+    "item": {},
+    "hint": "",
+    "password": "",
+    "directions": {
+      "northwest": "Captain Marvel",
+      "northeast": "Guardians of the Galaxy"
+    }
+  }
+]
